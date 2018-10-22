@@ -1,14 +1,14 @@
 /**
  * 
- * @author Javier Martínez Pérez
- * @author Javier Santano Martínez
+ * @author Javier Martinez Perez
+ * @author Javier Santano Martinez
  * @version 1.0
  *
  */
 public enum TipoPieza {
 	
 	/**
-	 * Determinamos la función correspondiente de cada pieza
+	 * Determinamos la funciï¿½n correspondiente de cada pieza
 	 * 
 	 */
 	PEON(),
