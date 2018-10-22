@@ -14,7 +14,5 @@ public class Tablero {
 	 
  }
  
- public int Hola;
- public String hola = "hola";
  
 }
