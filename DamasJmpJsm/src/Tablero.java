@@ -1,7 +1,7 @@
  /**
  * 
- * @author Javier Martínez Pérez
- * @author Javier Santano Martínez
+ * @author Javier Martï¿½nez Pï¿½rez
+ * @author Javier Santano Martï¿½nez
  * @version 1.0
  *
  */
@@ -15,6 +15,6 @@ public class Tablero {
  }
  
  public int Hola;
-
+ public String hola = "hola";
  
 }
