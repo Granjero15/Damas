@@ -13,6 +13,8 @@ public class Tablero {
  public Tablero(int filas, int columnas) {
 	 
  }
+ 
+ public int Hola;
 
  
 }
