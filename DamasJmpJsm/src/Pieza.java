@@ -82,9 +82,5 @@ public class Pieza {
 	public String toString() {
 		return "Pieza []";
 	}
-	public void mostrar() {
-		System.out.println("hola");
-	}
-	
 	
 }
