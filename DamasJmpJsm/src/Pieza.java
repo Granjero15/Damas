@@ -83,7 +83,8 @@ public class Pieza {
 		return "Pieza []";
 	}
 	public void mostrar() {
-		
+		System.out.println("hola");
 	}
+	
 	
 }
