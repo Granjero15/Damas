@@ -77,10 +77,24 @@ public class Pieza {
 			return false;
 		return true;
 	}
-
+ 
 	@Override
 	public String toString() {
 		return "Pieza []";
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

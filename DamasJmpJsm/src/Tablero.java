@@ -5,17 +5,7 @@
  * @version 1.0
  *
  */
-public class Tablero {
-	
-	public int filas;
-	public int columnas;
-	
- public Tablero(int filas, int columnas) {
-	 
- }
- 
- 
-}
+
 //tablero prueba  25/10/18
  * import java.awt.*;
 import java.awt.event.*;
@@ -24,7 +14,7 @@ public class Tablero extends javax.swing.JPanel {
     private ImageIcon agua, tocado;
     private boolean tipoTablero;
     private CasillasGUI [][] casillas ;
-        
+    public casillas  ;  
     public Tablero() {
         initComponents();
     }
@@ -41,7 +31,7 @@ public class Tablero extends javax.swing.JPanel {
                 casillas[i][j].setFondo(agua);
                 x = (i * 35)+1;
                 y = (j * 35)+1;
-                casillas[i][j].setBounds(x, y, 34, 34);
+                casillas[i][j].setBounds(x, y, 16, 16);
                 this.add(casillas[i][j]);
             }
         }
@@ -91,7 +81,7 @@ public class Tablero extends javax.swing.JPanel {
     public void setCasillas(CasillasGUI[][] casillas) {
         this.casillas = casillas;
     }
-    
+
     public boolean isTipoTablero() {
         return tipoTablero;
     }    
